@@ -74,6 +74,8 @@
             
       
             
+            
+            
       
             
       
@@ -89,8 +91,6 @@
       
             
       
-            
-            
               
             <li class="expanded">
               <a href="project-info.html">Project Information</a>
@@ -101,15 +101,7 @@
         </li>
                   
     <li class="none">
-              <a href="integration.html">Continuous Integration</a>
-        </li>
-                  
-    <li class="none">
-              <a href="dependencies.html">Dependencies</a>
-        </li>
-                  
-    <li class="none">
-              <a href="dependency-info.html">Dependency Information</a>
+              <a href="plugin-management.html">Plugin Management</a>
         </li>
                   
     <li class="none">
@@ -117,7 +109,11 @@
         </li>
                   
     <li class="none">
-              <a href="issue-tracking.html">Issue Tracking</a>
+              <a href="dependency-info.html">Dependency Information</a>
+        </li>
+                  
+    <li class="none">
+              <strong>Source Repository</strong>
         </li>
                   
     <li class="none">
@@ -125,11 +121,11 @@
         </li>
                   
     <li class="none">
-              <a href="plugin-management.html">Plugin Management</a>
+              <a href="issue-tracking.html">Issue Tracking</a>
         </li>
                   
     <li class="none">
-              <a href="license.html">Project License</a>
+              <a href="integration.html">Continuous Integration</a>
         </li>
                   
     <li class="none">
@@ -137,7 +133,7 @@
         </li>
                   
     <li class="none">
-              <a href="project-summary.html">Project Summary</a>
+              <a href="license.html">Project License</a>
         </li>
                   
     <li class="none">
@@ -145,7 +141,11 @@
         </li>
                   
     <li class="none">
-              <strong>Source Repository</strong>
+              <a href="project-summary.html">Project Summary</a>
+        </li>
+                  
+    <li class="none">
+              <a href="dependencies.html">Dependencies</a>
         </li>
               </ul>
         </li>
@@ -162,7 +162,27 @@
     </div>
     <div id="content">
       <div id="contentBox">
-        <div class="section"><h2>Overview<a name="Overview"></a></h2><a name="Overview"></a><p>This project uses a Source Content Management System to manage its source code.</p></div><div class="section"><h2>Web Access<a name="Web_Access"></a></h2><a name="Web_Access"></a><p>The following is a link to the online source repository.</p><div class="source"><pre><a class="externalLink" href="http://windows-package-checker.kohsuke.org/">http://windows-package-checker.kohsuke.org/</a></pre></div></div><div class="section"><h2>Anonymous access<a name="Anonymous_access"></a></h2><a name="Anonymous_access"></a><p>Refer to the documentation of the SCM used for more information about anonymously check out. The connection url is:</p><div class="source"><pre>git:git@github.com/kohsuke/windows-package-checker.git</pre></div></div><div class="section"><h2>Developer access<a name="Developer_access"></a></h2><a name="Developer_access"></a><p>Refer to the documentation of the SCM used for more information about developer check out. The connection url is:</p><div class="source"><pre>git:ssh://git@github.com/kohsuke/windows-package-checker.git</pre></div></div><div class="section"><h2>Access from behind a firewall<a name="Access_from_behind_a_firewall"></a></h2><a name="Access_from_behind_a_firewall"></a><p>Refer to the documentation of the SCM used for more information about access behind a firewall.</p></div>
+        <div class="section">
+<h2>Overview<a name="Overview"></a></h2><a name="Overview"></a>
+<p>This project uses <a class="externalLink" href="http://git-scm.com/">GIT</a> to manage its source code. Instructions on GIT use can be found at <a class="externalLink" href="http://git-scm.com/documentation">http://git-scm.com/documentation</a>.</p></div>
+<div class="section">
+<h2>Web Access<a name="Web_Access"></a></h2><a name="Web_Access"></a>
+<p>The following is a link to the online source repository.</p>
+<div class="source">
+<pre><a class="externalLink" href="http://windows-package-checker.kohsuke.org/">http://windows-package-checker.kohsuke.org/</a></pre></div></div>
+<div class="section">
+<h2>Anonymous access<a name="Anonymous_access"></a></h2><a name="Anonymous_access"></a>
+<p>The source can be checked out anonymously from GIT with this command (See <a class="externalLink" href="http://git-scm.com/docs/git-clone">http://git-scm.com/docs/git-clone</a>):</p>
+<div class="source">
+<pre>$ git clone git@github.com/kohsuke/windows-package-checker.git</pre></div></div>
+<div class="section">
+<h2>Developer access<a name="Developer_access"></a></h2><a name="Developer_access"></a>
+<p>Only project developers can access the GIT tree via this method (See <a class="externalLink" href="http://git-scm.com/docs/git-clone">http://git-scm.com/docs/git-clone</a>).</p>
+<div class="source">
+<pre>$ git clone ssh://git@github.com/kohsuke/windows-package-checker.git</pre></div></div>
+<div class="section">
+<h2>Access from behind a firewall<a name="Access_from_behind_a_firewall"></a></h2><a name="Access_from_behind_a_firewall"></a>
+<p>Refer to the documentation of the SCM used for more information about access behind a firewall.</p></div>
       </div>
     </div>
     <div id="footer">
@@ -175,8 +195,8 @@
 
   
   
-  &nbsp;| Last Published: 03/13/2013
-  &nbsp;| Version: 1.1
+  &nbsp;| Last Published: 2013-07-20
+  &nbsp;| Version: 1.2-SNAPSHOT
 </div>
       <div class="clear">
         <hr/>
